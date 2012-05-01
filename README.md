@@ -7,7 +7,7 @@ Houdini framework can make your life easier!
 Developed by a group of scientists and PhD students, Houdini was designed with two objectives:
 
 * Make it easier to build numerical simulation programs.
-* Promote collaboration between researchers with average programming skills.
+* Promote collaboration among researchers with average programming skills.
 
 Dive in the overview and when you are ready to code, read the installation guide and tutorial.
 
@@ -15,19 +15,11 @@ Dive in the overview and when you are ready to code, read the installation guide
 Overview
 --------
 
-Houdini was designed to make common numerical simulation tasks fast and easy.
+Houdini is designed to make common numerical simulation tasks fast and easy and to promote collaboration among researchers. The framework consists of two types of objects: applications (apps) and modules (mods). An app represents a numerical simulation program and is built by a set of mods. Each mod is a highly configurable piece that performs an specific task such as: generate a mesh, evaluate the variables, implement a numerical method or graph results.
 
-Houdini focuses on automating as much as possible and adhering to the [DRY principle](http://c2.com/cgi/wiki?DontRepeatYourself).
+In each app the user specifies which mods to use and how to configure them. Apps are writen in [JSON](http://www.json.org/), a light weight data format for information storage and exchange. Don't be scared if you have no experience with this format, [JSON](http://www.json.org/) is easy for humans to read and write.
 
-The Houdini framework consists of two types of objects: applications (apps) and modules (mods). An app represents a numerical simulation program, built with a set of mods. Each mod performs an specific task such as: generate a mesh, evaluate the variables, implement a numerical method or graph results.
-
-The content of each app is writen in [JSON](http://www.json.org/) and specifies which mods are used and how they are configured. [JSON](http://www.json.org/) is a light weight data format for information storage and exchange. Please, don't be scared if you have no experience with this format, [JSON](http://www.json.org/) is really easy to understand and learn.
-
-Mods are the heart of Houdini and can be writen in any scientific programming language (C, Fortran, Python, R, Octave...). This structure is intended to enable collaboration between researchers with different backgrounds and average programming skills. The framework comes with a set of mods covering the basic tasks on numerical simulation but if you need to extend a module or create a new one, the framework is designed to make this easy.
-
-Here is an informal overview of how to write an application in the Houdini framework.
-
-...
+Mods are the heart of Houdini and can be writen in any scientific programming language (C, Fortran, Python, R, Octave...) spiced with a simple template system. This structure is intended to enable collaboration between researchers with different backgrounds and average programming skills. The framework comes with a set of mods ready-to-use covering the basic tasks on numerical simulation. If you need to extend a mod or create a new one, the framework is designed to make this job easy. Read the contributing tutorial if you are interested in mod developing and do not forget to share your improvements with the community, we will all thank you!
 
 
 Installation guide
@@ -42,6 +34,8 @@ Download [the latest release](http://github.com/houdini-project/houdini/zipball/
 
 Tutorial
 --------
+
+Here is an informal overview of how to write an application in the Houdini framework.
 
 ...
 
