@@ -1,5 +1,5 @@
-Houdini
-=======
+Welcome to Houdini
+==================
 
 Are you a researcher on numerical methods or physical simulation?
 Houdini can make your life easier!
@@ -21,14 +21,28 @@ Here's an informal overview of how to write an application in the Houdini framew
 ...
 
 
-Installation guide
+Quick start
 -------------------
 
-    wget http://github.com/houdini-project/houdini/zipball/master
+Clone the repo, `git clone git@github.com:houdini-project/houdini.git`, or [download the latest release](http://github.com/houdini-project/houdini/zipball/master).
+
 
 ...
 
 
 Tutorial
 ----------
+
+...
+
+
+Copyright and license
+---------------------
+
+  Houdini is free software: you can redistribute it and/or modify it under the
+  terms of the GNU General Public License as published by the Free Software
+  Foundation, either version 3 of the License, or (at your option) any later
+  version.  See the file =COPYING= in this directory or
+  http://www.gnu.org/licenses/, for a description of the GNU General Public
+  License terms under which you can copy the files.
 
